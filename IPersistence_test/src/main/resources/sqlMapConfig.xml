@@ -1,0 +1,16 @@
+<configuration>
+
+        <!--数据库配置信息-->
+    <dataSource>
+        <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:63306/zdy_mybatis?useUnicode=true&amp;serverTimezone=GMT&amp;characterEncoding=utf8&amp;useSSL=false"/>
+        <property name="username" value="druiduser"/>
+        <property name="password" value="Wy@8180369"/>
+    </dataSource>
+
+    <!--存放mapper.xml的全路径-->
+    <mapper resource="UserMapper.xml">
+
+    </mapper>
+
+</configuration>

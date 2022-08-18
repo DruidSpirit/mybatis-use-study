@@ -1,0 +1,6 @@
+# Project exclude paths
+/design_pattern/target/
+/IPersistence/target/
+/IPersistence_test/target/
+/mybatis_multitable/target/
+/mybatis_quickStarter/target/
